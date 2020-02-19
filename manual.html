@@ -48,38 +48,40 @@
         <div class="container-fluid">
             <div>
                 <h4>安装</h4>
-                <blockquote style="margin-top:20px">
+                <blockquote>
                     <p>安装步骤请查看 <a href="install.html">安装说明</a>。</p>
                 </blockquote>
             </div>
-            <div style="margin-top:40px">
+            <div>
                 <h4>更新</h4>
-                <blockquote style="margin-top:20px">
+                <blockquote>
                     <p>在 InPanel 面板中选择“设置”-“版本升级”进行版本更新。</p>
                 </blockquote>
             </div>
-            <div style="margin-top:40px">
-                <h4>卸载</h4>
-                <blockquote style="margin-top:20px">
-                    <p>
-                        在服务器上运行以下命令即可完成卸载：<br>
-                        <code># service inpanel stop</code><br>
-                        <code># rm -rf /usr/local/inpanel</code><br>
-                        <code># rm -f /etc/init.d/inpanel</code><br>
-                    </p>
-                    <p style="margin-top:20px">
-                        卸载不会影响除 InPanel 面板外的其它数据。
-                    </p>
+            <div>
+                <h4>修改端口</h4>
+                <blockquote>
+                    <p>途径一：在 InPanel 面板中选择“设置”-“服务设置”-“绑定端口”进行端口修改。</p>
+                    <p>途径二：在服务器上运行以下命令：</p>
+                    <pre>/usr/local/inpanel/config.py port '端口号'</pre>
                 </blockquote>
             </div>
-            <div style="margin-top:40px">
+            <div>
+                <h4>卸载</h4>
+                <blockquote>
+                    <p>在服务器上运行以下命令即可完成卸载：</p>
+                    <pre>service inpanel stop</pre>
+                    <pre>rm -rf /usr/local/inpanel</pre>
+                    <pre>rm -f /etc/init.d/inpanel</pre>
+                    <p>卸载不会影响除 InPanel 面板外的其它数据。</p>
+                </blockquote>
+            </div>
+            <div>
                 <h4>忘记用户名或密码</h4>
-                <blockquote style="margin-top:20px">
-                    <p>
-                        在服务器上运行以下命令即可重置管理员用户名密码：<br>
-                        <code># /usr/local/inpanel/config.py username '用户名'</code><br>
-                        <code># /usr/local/inpanel/config.py password '密码'</code>
-                    </p>
+                <blockquote>
+                    <p>在服务器上运行以下命令即可重置管理员用户名密码：</p>
+                    <pre>/usr/local/inpanel/config.py username '用户名'</pre>
+                    <pre>/usr/local/inpanel/config.py password '密码'</pre>
                 </blockquote>
             </div>
         </div>
