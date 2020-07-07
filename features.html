@@ -132,16 +132,12 @@
     <script src="static/lib/jquery/jquery-1.12.4.min.js"></script>
     <script src="static/lib/bootstrap/js/bootstrap.min.js"></script>
     <script>
+        var _hmt = _hmt || [];
         (function() {
-            var bp = document.createElement('script');
-            var curProtocol = window.location.protocol.split(':')[0];
-            if (curProtocol === 'https') {
-                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-            } else {
-                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-            }
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(bp, s);
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?839f5258429ff473fcc6a42d7ba6d2ff";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
         })();
     </script>
 </body>
