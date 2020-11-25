@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) https://inpanel.org/$1 [R=301,L]
