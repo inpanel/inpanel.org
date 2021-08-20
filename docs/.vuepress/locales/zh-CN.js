@@ -38,8 +38,8 @@ module.exports = {
                     text: '其他',
                     items: [
                         { text: '版本历史', link: '/zh/changelog' },
-                        { text: '移动客户端', link: '/zh/mobile' },
-                        { text: '桌面客户端', link: '/zh/desktop' }
+                        { text: '移动客户端', link: '/zh/mobile/' },
+                        { text: '桌面客户端', link: '/zh/desktop/' }
                     ]
                 }
             ]
