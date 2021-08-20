@@ -1,0 +1,16 @@
+{
+    "name": "inpanel.org",
+    "version": "1.0.0",
+    "description": "inpanel.org",
+    "main": "index.js",
+    "author": "doudoudzj <doudoudzj@qq.com>",
+    "repository": "https://github.com/inpanel/inpanel.org.git",
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    },
+    "license": "BSD",
+    "devDependencies": {
+        "vuepress": "^1.8.2"
+    }
+}
