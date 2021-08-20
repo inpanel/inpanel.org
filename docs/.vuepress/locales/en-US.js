@@ -16,16 +16,31 @@ module.exports = {
         { text: 'Features', link: '/features' },
         { text: 'Install', link: '/install' },
         { text: 'Manual', link: '/manual' },
-        { text: 'Screenshot', link: '/screenshot' },
+        // { text: 'Screenshot', link: '/screenshot' },
         {
             text: 'Learn More',
             ariaLabel: 'Learn More',
             items: [
-                { text: 'Changelog', link: '/changelog' },
-                { text: 'Source', link: 'https://github.com/inpanel/inpanel' }
+                { text: 'Source', link: 'https://github.com/inpanel/inpanel' },
+                {
+                    text: 'Contact',
+                    items: [
+                        { text: 'Forum', link: '/zh/forum' },
+                        { text: 'Crogram', link: 'https://crogram.org' }
+                    ]
+                },
+                {
+                    text: 'Resources',
+                    items: [
+                        { text: 'Changelog', link: '/changelog' },
+                        { text: 'Mobile Client', link: '/mobile/' },
+                        { text: 'Desktop Client', link: '/desktop/' }
+                    ]
+                }
             ]
         }
     ]
+    // sidebar: 'auto'
     // sidebar: {
     //     '/': [],
     //     '/nested/': []

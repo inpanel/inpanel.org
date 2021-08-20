@@ -1,3 +1,5 @@
+# InPanel Changelog
+
 #### InPanel v1.1.1 b25 (2020-12-03)
 
 > **版本更新:**
