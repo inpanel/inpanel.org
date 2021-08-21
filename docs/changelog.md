@@ -1,4 +1,4 @@
-# InPanel 版本历史
+# Changelog
 
 #### InPanel v1.1.1 b25 (2020-12-03)
 

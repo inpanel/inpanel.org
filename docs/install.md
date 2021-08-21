@@ -2,33 +2,33 @@
 sidebar: auto
 ---
 
-# InPanel 安装说明
+# Installation
 
-## 安装需求
+## Requirement
 
-1. 操作系统：CentOS/RedHat 5.4 或 5.4 以上版本，32 位或 64 位系统，推荐使用 CentOS 6.2 64 位及以上版本。
-2. 内存大小：运行时占用约 20MB 左右的服务器内存。
+1. System: CentOS / RedHat 5.4+, 32-bit or 64 bit system. CentOS 6.2 64 bit or above is recommended.
+2. Memory: minimum 20MB memory.
 3. 请使用现代浏览器访问面板（IE8+、Firefox 14+、Chrome 21+），推荐使用 Chrome。
 
-## 在线安装步骤
+## Installation steps
 
 使用 SSH 连接工具，如 PuTTY、XShell、SecureCRT 等，连接到您的 Linux 服务器。
 
 执行以下命令开始安装：
 
-从 GitHub 下载安装脚本
+Download the installation script from [GitHub](https://github.com/inpanel/inpanel)
 
 ```shell
 wget https://raw.githubusercontent.com/inpanel/inpanel/master/install.py
 ```
 
-或者从 码云 下载安装脚本
+Download the installation script from [Gitee](https://gitee.com/inpanel/inpanel)
 
 ```shell
 wget https://gitee.com/inpanel/inpanel/raw/master/install.py
 ```
 
-安装
+Perform installation
 
 ```shell
 python install.py
@@ -46,13 +46,13 @@ python install.py
 
 <img src="/images/install/2.png" alt="set username and password">
 
-## 开发版的安装
+## Installation of development version
 
 ```shell
 wget https://raw.githubusercontent.com/inpanel/inpanel/dev/install.py
 python install.py --dev
 ```
 
-## 后续操作
+## Others
 
 请查看 [使用手册](manual.html)。

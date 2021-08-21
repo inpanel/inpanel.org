@@ -2,17 +2,17 @@
 sidebar: auto
 ---
 
-# InPanel 使用手册
+# User Manual
 
-## 安装
+## Installation
 
-安装步骤请查看 [安装说明](install.md)。
+[Installation instructions](install.md).
 
-## 更新
+## Update
 
 在 InPanel 面板中选择“设置”-“版本升级”进行版本更新。
 
-## 修改端口
+## Custom port
 
 途径一：在 InPanel 面板中选择“设置”-“服务设置”-“绑定端口”进行端口修改。
 
@@ -22,7 +22,7 @@ sidebar: auto
 /usr/local/inpanel/config.py port '端口号'
 ```
 
-## 卸载
+## Uninstall
 
 在服务器上运行以下命令即可完成卸载：
 
@@ -34,7 +34,7 @@ rm -f /etc/init.d/inpanel
 
 卸载不会影响除 InPanel 面板外的其它数据、已有服务及配置等。
 
-## 忘记用户名或密码
+## Forgot user name or password
 
 在服务器上运行以下命令即可重置管理员用户名密码：
 

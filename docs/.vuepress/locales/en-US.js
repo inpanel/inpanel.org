@@ -16,7 +16,7 @@ module.exports = {
         { text: 'Features', link: '/features' },
         { text: 'Install', link: '/install' },
         { text: 'Manual', link: '/manual' },
-        // { text: 'Screenshot', link: '/screenshot' },
+        { text: 'Screenshot', link: '/screenshot' },
         {
             text: 'Learn More',
             ariaLabel: 'Learn More',

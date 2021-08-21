@@ -1,4 +1,4 @@
 module.exports = {
     '/': require('./en-US'),
-    '/zh/': require('./zh-CN')
+    '/zh-cn/': require('./zh-CN')
 }

@@ -17,11 +17,11 @@ module.exports = {
     // 当前 locale 的 algolia docsearch 选项
     algolia: {},
     nav: [
-        { text: '首页', link: '/zh/' },
-        { text: '功能特性', link: '/zh/features' },
-        { text: '安装说明', link: '/zh/install' },
-        { text: '使用手册', link: '/zh/manual' },
-        // { text: '功能截图', link: '/zh/screenshot' },
+        { text: '首页', link: '/zh-cn/' },
+        { text: '功能特性', link: '/zh-cn/features' },
+        { text: '安装说明', link: '/zh-cn/install' },
+        { text: '使用手册', link: '/zh-cn/manual' },
+        { text: '功能截图', link: '/zh-cn/screenshot' },
         {
             text: '了解更多',
             ariaLabel: '了解更多',
@@ -30,16 +30,16 @@ module.exports = {
                 {
                     text: '联系我们',
                     items: [
-                        { text: '交流社区', link: '/zh/forum' },
+                        { text: '交流社区', link: '/zh-cn/forum' },
                         { text: '程江开源', link: 'https://crogram.org' }
                     ]
                 },
                 {
                     text: '其他',
                     items: [
-                        { text: '版本历史', link: '/zh/changelog' },
-                        { text: '移动客户端', link: '/zh/mobile/' },
-                        { text: '桌面客户端', link: '/zh/desktop/' }
+                        { text: '版本历史', link: '/zh-cn/changelog' },
+                        { text: '移动客户端', link: '/zh-cn/mobile/' },
+                        { text: '桌面客户端', link: '/zh-cn/desktop/' }
                     ]
                 }
             ]
@@ -47,7 +47,7 @@ module.exports = {
     ]
     // sidebar: 'auto'
     // sidebar: {
-    //     '/zh/': [],
-    //     '/zh/nested/': []
+    //     '/zh-cn/': [],
+    //     '/zh-cn/nested/': []
     // }
 }

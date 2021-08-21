@@ -16,11 +16,12 @@ module.exports = {
         ['meta', { name: 'google-site-verification', content: 'lE5T54JZzDGH2Ougb83nRswErCNpS2fUByVdoT6lJ8w' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-        ['link', { rel: 'icon', href: 'favicon.ico' }]
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
     themeConfig: {
         repo: 'inpanel/inpanel.org',
         docsBranch: 'main',
+        docsDir: 'docs/', // 文档源文件存放在仓库中的目录名
         editLinks: true,
         locales: localesConfig
     },

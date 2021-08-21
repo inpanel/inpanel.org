@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# InPanel 安装说明
+# 安装说明
 
 ## 安装需求
 

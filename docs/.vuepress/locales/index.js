@@ -6,7 +6,7 @@ module.exports = {
         title: 'InPanel',
         description: 'An Open source Web-based Linux VPS Management Tools'
     },
-    '/zh/': {
+    '/zh-cn/': {
         lang: 'zh-CN',
         title: 'InPanel',
         description: '开源Linux服务器管理面板'
