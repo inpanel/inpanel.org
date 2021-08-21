@@ -9,6 +9,6 @@ module.exports = {
     '/zh-cn/': {
         lang: 'zh-CN',
         title: 'InPanel',
-        description: '开源Linux服务器管理面板'
+        description: '开源 Linux 服务器管理面板'
     }
 }

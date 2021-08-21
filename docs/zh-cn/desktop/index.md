@@ -2,7 +2,7 @@
 
 InPanel 桌面客户端正在研发中
 
-敬请期待。。。
+查看进度：[InPanel Desktop](https://github.com/inpanel/inpanel-desktop)。
 
 ## 预览
 

@@ -1,15 +1,15 @@
-# InPanel Desktop App
+# InPanel Desktop Client
 
-InPanel 桌面客户端正在研发中
+InPanel Desktop Client is under development
 
-敬请期待。。。
+View details: [InPanel Desktop](https://github.com/inpanel/inpanel-desktop).
 
-## 预览
+## Preview
 
-功能菜单
+features menu
 
-<img src="/images/desktop/menu-features@2x.png" alt="功能菜单">
+<img src="/images/desktop/menu-features@2x.png" alt="features menu">
 
-工具菜单
+utils menu
 
-<img src="/images/desktop/menu-utils@2x.png" alt="工具菜单">
+<img src="/images/desktop/menu-utils@2x.png" alt="utils menu">

@@ -25,7 +25,7 @@ module.exports = {
                 {
                     text: 'Contact',
                     items: [
-                        { text: 'Forum', link: '/zh/forum' },
+                        { text: 'Forum', link: '/forum' },
                         { text: 'Crogram', link: 'https://crogram.org' }
                     ]
                 },
@@ -33,8 +33,8 @@ module.exports = {
                     text: 'Resources',
                     items: [
                         { text: 'Changelog', link: '/changelog' },
-                        { text: 'Mobile Client', link: '/mobile/' },
-                        { text: 'Desktop Client', link: '/desktop/' }
+                        { text: 'InPanel Mobile App', link: '/mobile/' },
+                        { text: 'InPanel Desktop Client', link: '/desktop/' }
                     ]
                 }
             ]
