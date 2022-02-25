@@ -19,10 +19,13 @@ module.exports = {
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
     themeConfig: {
-        repo: 'inpanel/inpanel.org',
+        repo: 'inpanel/inpanel',
+        docsRepo: 'inpanel/inpanel.org',
         docsBranch: 'main',
         docsDir: 'docs/', // 文档源文件存放在仓库中的目录名
-        editLinks: true,
+        editLink: true,
+        lastUpdated: true,
+        logo: '/images/logo_128x128.png',
         locales: localesConfig
     },
     plugins: [
@@ -31,6 +34,12 @@ module.exports = {
             '@vuepress/google-analytics',
             {
                 ga: 'UA-28162642-12'
+            }
+        ],
+        [
+            '@vuepress/plugin-search',
+            {
+                locales: { '/': { placeholder: 'Search' }, '/zh-cn/': { placeholder: '搜索' } }
             }
         ]
     ]

@@ -4,3 +4,5 @@ dist
 yarn.lock
 .DS_Store
 .vscode
+.cache
+.temp

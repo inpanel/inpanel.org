@@ -11,8 +11,9 @@
     },
     "license": "BSD",
     "devDependencies": {
-        "@vuepress/plugin-back-to-top": "^1.8.2",
-        "@vuepress/plugin-google-analytics": "^1.8.2",
-        "vuepress": "^1.8.2"
+        "@vuepress/plugin-back-to-top": "^2.0.0-beta.35",
+        "@vuepress/plugin-google-analytics": "^2.0.0-beta.35",
+        "@vuepress/plugin-search": "^2.0.0-beta.35",
+        "vuepress": "^2.0.0-beta.35"
     }
 }
