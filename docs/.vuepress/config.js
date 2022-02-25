@@ -31,7 +31,7 @@ module.exports = {
     plugins: [
         ['@vuepress/plugin-back-to-top', true],
         [
-            '@vuepress/google-analytics',
+            '@vuepress/plugin-google-analytics',
             {
                 ga: 'UA-28162642-12'
             }
