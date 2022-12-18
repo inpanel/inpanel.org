@@ -1,9 +1,9 @@
 {
     "name": "inpanel.org",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "inpanel.org",
     "main": "index.js",
-    "author": "Jackson Dou <doudoudzj@qq.com>",
+    "author": "Jackson Dou <jksdou@qq.com>",
     "repository": "https://github.com/inpanel/inpanel.org.git",
     "scripts": {
         "docs:dev": "vuepress dev docs",
@@ -11,9 +11,12 @@
     },
     "license": "BSD",
     "devDependencies": {
-        "@vuepress/plugin-back-to-top": "^2.0.0-beta.35",
-        "@vuepress/plugin-google-analytics": "^2.0.0-beta.35",
-        "@vuepress/plugin-search": "^2.0.0-beta.35",
-        "vuepress": "^2.0.0-beta.35"
+        "@vuepress/plugin-back-to-top": "^1.9.7",
+        "@vuepress/plugin-google-analytics": "^1.9.7",
+        "@vuepress/plugin-last-updated": "^1.9.7",
+        "@vuepress/plugin-medium-zoom": "^1.9.7",
+        "@vuepress/plugin-nprogress": "^1.9.7",
+        "@vuepress/plugin-search": "^1.9.7",
+        "vuepress": "^1.9.7"
     }
 }

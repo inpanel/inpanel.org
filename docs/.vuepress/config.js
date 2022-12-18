@@ -23,24 +23,17 @@ module.exports = {
         docsRepo: 'inpanel/inpanel.org',
         docsBranch: 'main',
         docsDir: 'docs/', // 文档源文件存放在仓库中的目录名
-        editLink: true,
+        editLinks: true,
         lastUpdated: true,
         logo: '/images/logo_128x128.png',
         locales: localesConfig
     },
     plugins: [
-        ['@vuepress/plugin-back-to-top', true],
-        [
-            '@vuepress/plugin-google-analytics',
-            {
-                id: 'G-304994720'
-            }
-        ],
-        [
-            '@vuepress/plugin-search',
-            {
-                locales: { '/': { placeholder: 'Search' }, '/zh-cn/': { placeholder: '搜索' } }
-            }
-        ]
+        ['@vuepress/back-to-top'],
+        ['@vuepress/last-updated'],
+        ['@vuepress/medium-zoom'],
+        ['@vuepress/nprogress'],
+        ['@vuepress/search', { searchMaxSuggestions: 10 }],
+        ['@vuepress/google-analytics', { ga: 'UA-28162642-12' } ]
     ]
 }

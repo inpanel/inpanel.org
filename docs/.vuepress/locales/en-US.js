@@ -1,11 +1,9 @@
 module.exports = {
-    selectLanguageText: 'Languages',
-    selectLanguageAriaLabel: 'Languages',
-    selectLanguageName: 'English',
+    selectText: 'Languages',
+    label: 'English',
+    ariaLabel: 'Languages',
     editLinkText: 'Edit this page on GitHub',
-    lastUpdatedText: 'Last Updated',
-    contributorsText: 'Contributors',
-    toggleDarkMode: 'Toggle Darkmode',
+    lastUpdated: 'Last Updated',
     serviceWorker: {
         updatePopup: {
             message: 'New content is available.',
@@ -13,7 +11,7 @@ module.exports = {
         }
     },
     algolia: {},
-    navbar: [
+    nav: [
         { text: 'Home', link: '/' },
         { text: 'Features', link: '/features' },
         { text: 'Install', link: '/install' },
@@ -22,19 +20,19 @@ module.exports = {
         {
             text: 'Learn More',
             ariaLabel: 'Learn More',
-            children: [
+            items: [
                 { text: 'Changelog', link: '/changelog' },
                 { text: 'TodoList', link: '/todolist' },
                 {
                     text: 'Contact',
-                    children: [
+                    items: [
                         { text: 'Forum', link: '/forum' },
                         { text: 'Crogram', link: 'https://crogram.org' }
                     ]
                 },
                 {
                     text: 'Resources',
-                    children: [
+                    items: [
                         { text: 'InPanel Mobile App', link: '/mobile/' },
                         { text: 'InPanel Desktop Client', link: '/desktop/' }
                     ]
