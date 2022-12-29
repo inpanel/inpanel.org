@@ -7,7 +7,7 @@ sidebar: auto
 ## Requirement
 
 1. System: CentOS / RedHat 5.4+, 32-bit or 64 bit system. CentOS 6.2 64 bit or above is recommended.
-2. Memory: minimum 20MB memory.
+2. Memory: minimum 30MB memory.
 3. 请使用现代浏览器访问面板（IE8+、Firefox 14+、Chrome 21+），推荐使用 Chrome。
 
 ## Installation steps

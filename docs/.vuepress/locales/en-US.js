@@ -16,6 +16,7 @@ module.exports = {
         { text: 'Features', link: '/features' },
         { text: 'Install', link: '/install' },
         { text: 'Manual', link: '/manual' },
+        { text: 'Donation', link: '/donation' },
         { text: 'Screenshot', link: '/screenshot' },
         {
             text: 'Learn More',

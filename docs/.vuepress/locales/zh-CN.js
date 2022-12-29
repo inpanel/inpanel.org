@@ -22,6 +22,7 @@ module.exports = {
         { text: '功能特性', link: '/zh-cn/features' },
         { text: '安装说明', link: '/zh-cn/install' },
         { text: '使用手册', link: '/zh-cn/manual' },
+        { text: '捐助项目', link: '/zh-cn/donation' },
         { text: '功能截图', link: '/zh-cn/screenshot' },
         {
             text: '了解更多',
