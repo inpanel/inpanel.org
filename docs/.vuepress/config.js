@@ -35,6 +35,7 @@ module.exports = {
         ['@vuepress/last-updated'],
         ['@vuepress/medium-zoom'],
         ['@vuepress/nprogress'],
-        ['@vuepress/search', { searchMaxSuggestions: 10 }]
+        ['@vuepress/search', { searchMaxSuggestions: 10 }],
+        ['@vuepress/google-analytics', { ga: 'UA-28162642-12' } ]
     ]
 }
