@@ -1,3 +1,5 @@
-# the Official Site for InPanel
+# the Official Global Website for InPanel
 
-the Official Site for InPanel（InPanel 官方网站）
+Global Website: [inpanel.org](https://inpanel.org)
+
+中文站点：[inpanel.cn](https://inpanel.cn)
