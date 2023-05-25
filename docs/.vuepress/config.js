@@ -18,7 +18,7 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['script', { async: true, type: 'text/javascript', src: 'https://www.googletagmanager.com/gtag/js?id=G-C63STQF95T' }],
-        ['script', { type: 'text/javascript' }, 'window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-C63STQF95T");']        
+        ['script', { type: 'text/javascript' }, 'window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag("js", new Date());gtag("config", "G-C63STQF95T");']
     ],
     themeConfig: {
         repo: 'inpanel/inpanel',
@@ -35,7 +35,6 @@ module.exports = {
         ['@vuepress/last-updated'],
         ['@vuepress/medium-zoom'],
         ['@vuepress/nprogress'],
-        ['@vuepress/search', { searchMaxSuggestions: 10 }],
-        ['@vuepress/google-analytics', { ga: 'UA-28162642-12' } ]
+        ['@vuepress/search', { searchMaxSuggestions: 10 }]
     ]
 }
