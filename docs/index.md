@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/hero.png
 actionText: Get Started →
-actionLink: /install
+actionLink: /install/
 features:
     - title: Open & Free
       details: Fast online installation, compact and resource saving,当前支持 CentOS/RedHat 5.4+、6.x、7.x、8.x

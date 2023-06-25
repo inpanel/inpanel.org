@@ -14,7 +14,7 @@ module.exports = {
     nav: [
         { text: 'Home', link: '/' },
         { text: 'Features', link: '/features' },
-        { text: 'Install', link: '/install' },
+        { text: 'Install', link: '/install/' },
         { text: 'Manual', link: '/manual' },
         { text: 'Donation', link: '/donation' },
         { text: 'Screenshot', link: '/screenshot' },
@@ -40,5 +40,11 @@ module.exports = {
                 }
             ]
         }
-    ]
+    ],
+    sidebar: {
+        '/install/': [
+            '',
+            'custom'
+        ]
+    }
 }

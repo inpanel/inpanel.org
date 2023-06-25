@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/hero.png
 actionText: 开始安装 →
-actionLink: /zh-cn/install
+actionLink: /zh-cn/install/
 features:
     - title: 开源免费
       details: 无需付费即可快速在线安装，小巧且节省资源，当前支持 CentOS/RedHat 5.4+、6.x、7.x、8.x

@@ -20,7 +20,7 @@ module.exports = {
     nav: [
         { text: '首页', link: '/zh-cn/' },
         { text: '功能特性', link: '/zh-cn/features' },
-        { text: '安装说明', link: '/zh-cn/install' },
+        { text: '安装说明', link: '/zh-cn/install/' },
         { text: '使用手册', link: '/zh-cn/manual' },
         { text: '捐助项目', link: '/zh-cn/donation' },
         { text: '功能截图', link: '/zh-cn/screenshot' },
@@ -46,10 +46,14 @@ module.exports = {
                 }
             ]
         }
-    ]
+    ],
     // sidebar: 'auto'
-    // sidebar: {
-    //     '/zh-cn/': [],
-    //     '/zh-cn/nested/': []
-    // }
+    sidebar: {
+        '/zh-cn/install/': [
+            // /zh-cn/install/
+            '',
+            // /zh-cn/install/custom.html
+            'custom'
+        ]
+    }
 }
