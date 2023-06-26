@@ -9,7 +9,7 @@ First make sure that your system already has Python 2 installed
 ```sh
 yum -y install python26
 yum install -y -q epel-release
-yum install -y -q wget net-tools vim psmisc rsync libxslt-devel GeoIP GeoIP-devel gd gd-devel'
+yum install -y -q wget net-tools vim psmisc rsync libxslt-devel GeoIP GeoIP-devel gd gd-devel
 ```
 
 ## Download source package
