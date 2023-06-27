@@ -4,16 +4,54 @@ sidebar: auto
 
 # Changelog
 
+## InPanel v1.1.1 b28 (2023-06-27)
+
+**版本更新:**
+
+- 发布 InPanel v1.1.1 b28
+
+**功能改进:**
+
+- 添加控制命令、配置和卸载脚本文件，安装位置在 /usr/local/bin/inpanel，/usr/local/bin/inpanel-config 和 /usr/local/bin/inpanel-uninstall
+- 补充 runtime 接口
+
+## InPanel v1.1.1 b27 (2023-06-27)
+
+> **版本更新:**
+>
+> - 发布 InPanel v1.1.1 b27
+>
+> **功能改进:**
+>
+> - 更新 README.md
+
+## InPanel v1.1.1 b26 (2023-06-26)
+
+> **版本更新:**
+>
+> - 发布 InPanel v1.1.1 b26
+>
+> **Bug 修复:**
+>
+> - 修复打开根路径 `/` 时账号登录失效的问题
+>
+> **功能改进:**
+>
+> - 新增页面：【关于应用】、【捐助项目】，增加了捐助通道（微信、支付宝扫码）
+> - 接口调整：所有接口地址调整到子目录 /api/
+> - 路径调整：首页路径调整为 `/`
+> - 界面调整：部分表格样式完善
+> - 完善逻辑：core/modules/server.py
+
 ## InPanel v1.1.1 b25 (2020-12-03)
 
 > **版本更新:**
 >
 > - 发布 InPanel v1.1.1 b25
 >
-> **Bug修复:**
+> **Bug 修复:**
 >
 > - 更新 CentOS 7 yum 源配置文件
->
 
 ## InPanel v1.1.1 b24 (2020-10-06)
 
@@ -24,11 +62,9 @@ sidebar: auto
 > **功能改进:**
 >
 > - 优化主界面内存统计信息及自动刷新开关
-> -
-> **Bug修复:**
+> - **Bug 修复:**
 >
 > - 修复文件名或路径包含#等特殊符号的文件下载时出错的问题
->
 
 ## InPanel v1.1.1 b23 (2020-05-13)
 
@@ -36,10 +72,9 @@ sidebar: auto
 >
 > - 发布 InPanel v1.1.1 b23
 >
-> **Bug修复:**
+> **Bug 修复:**
 >
 > - 修复: 更新 centos-release-7 链接地址
->
 
 ## InPanel v1.1.1 b22 (2020-04-05)
 
@@ -52,7 +87,7 @@ sidebar: auto
 > - 新增: 支持客户端模块
 > - 新增: 面板配置，可自定义 SSL 证书与私钥
 >
-> **Bug修复:**
+> **Bug 修复:**
 >
 > - 修复: Nginx 站点配置中 SSL 显示状态不对的问题
 > - 修复: 文件名包含空格的不能进行压缩和解压的问题
@@ -63,7 +98,6 @@ sidebar: auto
 > - 优化安装脚本，增加可选参数，自定义安装
 > - 优化内存使用统计
 > - 优化远程控制功能，支持客户端授权模式
->
 
 ## InPanel v1.1.1 b21 (2019-12-24)
 
@@ -81,7 +115,7 @@ sidebar: auto
 > **功能改进:**
 >
 > - 暂无
-> 
+>
 > **正在开发:**
 >
 > - SSL 管理
@@ -107,7 +141,7 @@ sidebar: auto
 > - 优化 Apache 站点的添加，支持多个域名配置，站点目录不存在时可直接创建
 > - 快速安装建站系统接口的完善
 > - 前端页面 loading 块改为可复用组件
-> 
+>
 > **正在开发:**
 >
 > - SSL 管理
@@ -122,7 +156,7 @@ sidebar: auto
 >
 > - 发布 InPanel v1.1.1 b19
 >
-> **Bug修复:**
+> **Bug 修复:**
 >
 > - 修复: 对 iptables 运行状态显示不匹配的问题
 > - 修复: 在查看 Nginx 站点配置中,地址为 IPv6 时,显示异常的问题
@@ -159,7 +193,7 @@ sidebar: auto
 > - 发布 InPanel v1.1.1 b18
 > - 项目统一使用 InPanel 标识
 >
-> **Bug修复：**
+> **Bug 修复：**
 >
 > - 修复查看进程列表界面，JS 错误导致自动请求停止的问题
 > - 修复保存 DNS 为空时出错的问题
@@ -186,7 +220,7 @@ sidebar: auto
 
 ## Intranet Panel v1.1.1 b17 (2018-12-20)
 
-> **Bug修复：**
+> **Bug 修复：**
 >
 > - 修复时间设置界面进入后出现接口报错的问题
 > - 修复时间同步服务界面一直提示“正在检测 NTPD 服务” 无法使用的问题
@@ -210,7 +244,6 @@ sidebar: auto
 >
 > - 后端服务脚本及前端页面程序重命名为 intranet
 > - 全新安装 Intarnet 时，加入对 VPSMate 的检测，可以选择保留 VPSMate，暂时和 Intranet 不能同时运行
->
 
 ## Intranet Panel v1.1.1 b15 (2018-12-13)
 
@@ -234,20 +267,20 @@ sidebar: auto
 
 > **项目调整：**
 >
->  - 项目名称改为 Intranet Panel，并转移到 intranet-panel 组织
->  - 相关项目：Intranet Site、Intranet API 和 Intranet Docs 也一并转移到 intranet-panel
+> - 项目名称改为 Intranet Panel，并转移到 intranet-panel 组织
+> - 相关项目：Intranet Site、Intranet API 和 Intranet Docs 也一并转移到 intranet-panel
 
 ## Intranet v1.1.1 b12 (2018-12-12)
 
 > **功能改进：**
 >
->  - 完善更新功能
+> - 完善更新功能
 >
 > **Bug 修复：**
 >
->  - 修复更新接口的报错信息
+> - 修复更新接口的报错信息
 
-## Intranet  v1.1.1 b11 (2018-11-10)
+## Intranet v1.1.1 b11 (2018-11-10)
 
 > **发布第一个正式版本：v1.1.1 b11**
 >
@@ -257,24 +290,24 @@ sidebar: auto
 
 > **项目调整：**
 >
->  - 项目名称改为 Intranet，并转移到 crogram 组织，便于协同开发
->  - 新增 TODOLIST 任务列表
+> - 项目名称改为 Intranet，并转移到 crogram 组织，便于协同开发
+> - 新增 TODOLIST 任务列表
 
 ## 项目许可文件更新 (2018-10-25)
 
 > **项目调整：**
 >
->  许可文件更新，使用 The New BSD License 许可
+> 许可文件更新，使用 The New BSD License 许可
 
 ## 项目启动更新 (2017-08-14)
 
 > **项目启动：**
 >
->  以 VPSMate 为基础，二次开发的项目 Intranet 正式启动，Intranet 将一如既往的保持原来 VPSMate 的简洁与快速，希望大家喜爱和关注。
+> 以 VPSMate 为基础，二次开发的项目 Intranet 正式启动，Intranet 将一如既往的保持原来 VPSMate 的简洁与快速，希望大家喜爱和关注。
 
 ## VPSMate 项目已暂停更新
 
->  感谢大家对 VPSMate 的喜爱和关注，VPSMate 目前已暂停更新。
+> 感谢大家对 VPSMate 的喜爱和关注，VPSMate 目前已暂停更新。
 
 ## VPSMate v1.0 b10 (2013-01-18)
 
@@ -302,10 +335,10 @@ sidebar: auto
 >
 > - 解决远程控制设置保存失败的问题。
 > - 解决 phpMyAdmin 无法安装的问题。
-> - 解决部分系统因lvs版本不同导致500错误的问题。
+> - 解决部分系统因 lvs 版本不同导致 500 错误的问题。
 > - 解决数据库密码修改后进入数据库管理异常的问题。
 > - 解决在数据库管理中修改 root@localhost 用户密码后进入数据库管理异常的问题。
-> - 解决zip文件解压或压缩时安装 zip 命令无响应的问题。
+> - 解决 zip 文件解压或压缩时安装 zip 命令无响应的问题。
 > - 解决文件管理中批量删除后，再次点击批量删除时提示文件不存在的问题。
 > - 解决强制修改 mysql root 密码时无响应的问题。
 > - 解决 centos 5.4 下强制修改 root 密码失败的问题。
