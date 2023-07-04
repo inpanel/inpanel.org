@@ -6,7 +6,7 @@ sidebar: auto
 
 ## 安装
 
-安装步骤请查看 [安装说明](install.md)。
+安装步骤请查看 [安装说明](install/)。
 
 ## 更新
 

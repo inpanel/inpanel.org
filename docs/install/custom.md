@@ -16,10 +16,12 @@ yum install -y -q wget net-tools vim psmisc rsync libxslt-devel GeoIP GeoIP-deve
 
 Download the source package from any of the following links:
 
+```
 1. https://github.com/inpanel/inpanel/archive/refs/tags/v1.1.1b25.zip
 2. https://github.com/inpanel/inpanel/archive/refs/tags/v1.1.1b25.tar.gz
 3. https://download.inpanel.org/release/1/inpanel-1.1.1b25.tar.gz
 4. https://download.inpanel.org/release/1/inpanel-1.1.1b25.zip
+```
 
 Extract the downloaded package to a folder `/usr/local/inpanel/`
 

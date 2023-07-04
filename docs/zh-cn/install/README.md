@@ -51,4 +51,4 @@ python install.py --dev
 
 ## 后续操作
 
-请查看 [使用手册](manual.html)。
+请查看 [使用手册](../manual.md)。

@@ -6,7 +6,7 @@ sidebar: auto
 
 ## Installation
 
-[Installation instructions](install.md).
+[Installation instructions](install/).
 
 ## Update
 
